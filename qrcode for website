@@ -1,0 +1,3 @@
+import segno
+qr = segno.make('https://www.orthopro.co/')
+qr.save('orthopro.png', scale=10)
